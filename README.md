@@ -105,3 +105,33 @@ Each sub-folder will contain the schema files
 ├── topology.schema.json
 └── wmi.schema.json
 ```
+
+## Setup Schema Validation in VS Code
+
+A [similar](https://www.dynatrace.com/support/help/extend-dynatrace/extensions20/extension-yaml_) process is described in the Dynatrace documentation. 
+
+1. Install the extension: YAML [redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+2. Configure the extension. Go to:
+   1. The gear icon
+   2. Settings
+   3. Search for "Yaml: Schema"
+   4. "Edit in settings.json"
+
+
+![Settings](assets/yaml_config.png)
+
+3. Add a block like this to your `settings.json` file choosing the version of the schema you would like to validate against:
+
+```json
+{
+    "yaml.schemas": {
+        "/Users/user.name/schemas_tmp/1.250.0/extension.schema.json": [
+            "file:///Users/user.name/schemas_tmp/1.250.0/extension.schema.json"
+        ]
+    }
+}
+```
+
+Then you should see yaml validation hints like this:
+
+![Hints](assets/yaml_validation.png)
