@@ -1,0 +1,8 @@
+# Tenant: https://demo.live.dynatrace.com
+tenant:
+
+# Token:
+token:
+
+# Path to where you want to store the schemas
+schema_path:

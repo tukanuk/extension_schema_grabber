@@ -6,4 +6,5 @@ with open("config/config.yaml", "r", encoding="UTF-8") as file:
 
 token = config_file['token']
 schema_path = config_file['schema_path']
+tenant = config_file['tenant']
 print(token)
