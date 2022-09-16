@@ -125,8 +125,8 @@ A [similar](https://www.dynatrace.com/support/help/extend-dynatrace/extensions20
 ```json
 {
     "yaml.schemas": {
-        "/Users/user.name/schemas_tmp/1.250.0/extension.schema.json": [
-            "file:///Users/user.name/schemas_tmp/1.250.0/extension.schema.json"
+        "/Users/user.name/schemas_tmp/1.250.0/extension.schema.json": [ 
+            "extension.yaml"
         ]
     }
 }
