@@ -1,3 +1,5 @@
 config/
 config.yaml
 .DS_Store
+venv/
+.python-version

@@ -6,7 +6,7 @@
 1. Rename the `config.yaml.template` file to `config.yaml` 
 
 2. Provide the **tenant**, **token** and **path** where you would like to store the schema files.
-3. 
+   
 ### With Poetry 
 
 See [Poetry docs](https://python-poetry.org/docs/) for info on setting up this dependency management tool.
