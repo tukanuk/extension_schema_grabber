@@ -114,8 +114,8 @@ A [similar](https://www.dynatrace.com/support/help/extend-dynatrace/extensions20
 2. Configure the extension. Go to:
    1. The gear icon
    2. Settings
-   3. Search for "Yaml: Schema"
-   4. "Edit in settings.json"
+   3. Search for "`Yaml: Schema`"
+   4. "Edit in `settings.json`"
 
 
 ![Settings](assets/yaml_config.png)
