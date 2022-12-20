@@ -65,45 +65,7 @@ Each sub-folder will contain the schema files
 ```zsh
 ❯ tree ~/.schemas/1.250.0
 ├── event.templates.schema.json
-├── extension.schema.json
-├── gcp.schema.json
-├── generic.relationships.schema.json
-├── generic.types.schema.json
-├── log.events.schema.json
-├── log.processing.rule.schema.json
-├── metric.metadata.schema.json
-├── metric.query.schema.json
-├── metric.schema.json
-├── metric.stored.query.schema.json
-├── processes.schema.json
-├── prometheus.schema.json
-├── python.schema.json
-├── screen.actions.schema.json
-├── screen.breadcrumbs.types.schema.json
-├── screen.card.charts.schema.json
-├── screen.card.entities.list.schema.json
-├── screen.card.events.schema.json
-├── screen.card.logs.schema.json
-├── screen.card.message.schema.json
-├── screen.card.problems.schema.json
-├── screen.card.properties.schema.json
-├── screen.chart.commons.schema.json
-├── screen.chart.definition.schema.json
-├── screen.chart.type.graph.schema.json
-├── screen.chart.type.pie.schema.json
-├── screen.chart.type.single.schema.json
-├── screen.details.filtering.schema.json
-├── screen.details.injections.schema.json
-├── screen.details.settings.schema.json
-├── screen.filtering.types.schema.json
-├── screen.list.filtering.schema.json
-├── screen.list.injections.schema.json
-├── screen.list.settings.schema.json
-├── snmp.schema.json
-├── snmptraps.schema.json
-├── sql.schema.json
-├── topology.schema.json
-└── wmi.schema.json
+├── ...
 ```
 
 ## Setup Schema Validation in VS Code
